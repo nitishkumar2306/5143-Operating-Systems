@@ -1,0 +1,4 @@
+
+-rw-rw-r-- 1  madhav madhav    0 Sep 14 13:11 .test
+-rw-rw-r-- 1  madhav madhav  295 Sep 20 22:55 test.py
+-rw-rw-r-- 1  madhav madhav  470 Sep 20 23:50 testt.txt
