@@ -1,0 +1,2215 @@
+{
+    "kwargs": {
+        "ofile": "big_cpu.dat",
+        "nj": 500,
+        "minCpuBT": 1,
+        "maxCpuBT": 20,
+        "minIOBT": 1,
+        "maxIOBT": 20,
+        "intBurstType": "cpu",
+        "minat": 1,
+        "maxat": 10
+    },
+    "jobs": [
+        {
+            "arrivalTime": 0,
+            "process_id": 4,
+            "priority": 2,
+            "cpuBursts": [
+                19,
+                12,
+                34,
+                34,
+                31,
+                15,
+                15,
+                30
+            ],
+            "ioBursts": [
+                -1,
+                9,
+                10,
+                6,
+                5,
+                6,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 1,
+            "process_id": 14,
+            "priority": 1,
+            "cpuBursts": [
+                18,
+                40,
+                13,
+                28,
+                20,
+                39,
+                32,
+                39,
+                36
+            ],
+            "ioBursts": [
+                -8,
+                -6,
+                10,
+                -8,
+                8,
+                10,
+                7,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 2,
+            "process_id": 22,
+            "priority": 4,
+            "cpuBursts": [
+                15,
+                35,
+                36,
+                34,
+                40,
+                19,
+                31,
+                23,
+                23
+            ],
+            "ioBursts": [
+                6,
+                -5,
+                -7,
+                5,
+                -1,
+                -4,
+                4,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 3,
+            "process_id": 24,
+            "priority": 4,
+            "cpuBursts": [
+                17,
+                32,
+                38,
+                25,
+                20,
+                40,
+                35
+            ],
+            "ioBursts": [
+                -2,
+                -6,
+                -6,
+                4,
+                -3,
+                9
+            ]
+        },
+        {
+            "arrivalTime": 4,
+            "process_id": 34,
+            "priority": 3,
+            "cpuBursts": [
+                39,
+                33,
+                12,
+                32,
+                29,
+                39,
+                17,
+                32,
+                12
+            ],
+            "ioBursts": [
+                2,
+                -5,
+                -7,
+                7,
+                1,
+                7,
+                -4,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 5,
+            "process_id": 40,
+            "priority": 1,
+            "cpuBursts": [
+                34,
+                17,
+                20,
+                12,
+                16,
+                35
+            ],
+            "ioBursts": [
+                5,
+                -4,
+                3,
+                -3,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 6,
+            "process_id": 46,
+            "priority": 5,
+            "cpuBursts": [
+                14,
+                19,
+                28,
+                22,
+                30,
+                22,
+                36,
+                22,
+                26,
+                35
+            ],
+            "ioBursts": [
+                -5,
+                -2,
+                -4,
+                3,
+                10,
+                -3,
+                2,
+                10,
+                11
+            ]
+        },
+        {
+            "arrivalTime": 7,
+            "process_id": 50,
+            "priority": 4,
+            "cpuBursts": [
+                15,
+                28,
+                38,
+                13,
+                23,
+                30,
+                16
+            ],
+            "ioBursts": [
+                -4,
+                10,
+                10,
+                0,
+                4,
+                0
+            ]
+        },
+        {
+            "arrivalTime": 8,
+            "process_id": 60,
+            "priority": 5,
+            "cpuBursts": [
+                26,
+                37,
+                14,
+                20,
+                31,
+                30,
+                17,
+                13,
+                26
+            ],
+            "ioBursts": [
+                -1,
+                1,
+                8,
+                -7,
+                11,
+                4,
+                -2,
+                8
+            ]
+        },
+        {
+            "arrivalTime": 9,
+            "process_id": 70,
+            "priority": 1,
+            "cpuBursts": [
+                26,
+                33,
+                13,
+                28,
+                23,
+                38,
+                19,
+                14,
+                27,
+                36,
+                16,
+                14
+            ],
+            "ioBursts": [
+                9,
+                10,
+                11,
+                -4,
+                -2,
+                1,
+                -3,
+                11,
+                2,
+                0,
+                -1
+            ]
+        },
+        {
+            "arrivalTime": 10,
+            "process_id": 77,
+            "priority": 5,
+            "cpuBursts": [
+                14,
+                35,
+                22,
+                20,
+                30,
+                33,
+                37,
+                15
+            ],
+            "ioBursts": [
+                0,
+                -4,
+                5,
+                -8,
+                9,
+                -5,
+                -7
+            ]
+        },
+        {
+            "arrivalTime": 11,
+            "process_id": 80,
+            "priority": 3,
+            "cpuBursts": [
+                34,
+                37,
+                18,
+                28,
+                34,
+                13
+            ],
+            "ioBursts": [
+                6,
+                -2,
+                10,
+                -1,
+                10
+            ]
+        },
+        {
+            "arrivalTime": 12,
+            "process_id": 84,
+            "priority": 2,
+            "cpuBursts": [
+                11,
+                24,
+                17,
+                30,
+                17,
+                34,
+                22,
+                13
+            ],
+            "ioBursts": [
+                10,
+                10,
+                8,
+                1,
+                -2,
+                0,
+                -4
+            ]
+        },
+        {
+            "arrivalTime": 13,
+            "process_id": 89,
+            "priority": 1,
+            "cpuBursts": [
+                21,
+                11,
+                29,
+                38,
+                35,
+                17,
+                20
+            ],
+            "ioBursts": [
+                8,
+                -8,
+                2,
+                7,
+                0,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 14,
+            "process_id": 95,
+            "priority": 3,
+            "cpuBursts": [
+                31,
+                24,
+                30,
+                25,
+                31,
+                27,
+                40,
+                29
+            ],
+            "ioBursts": [
+                3,
+                -6,
+                -6,
+                9,
+                -4,
+                3,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 15,
+            "process_id": 100,
+            "priority": 4,
+            "cpuBursts": [
+                25,
+                40,
+                12,
+                29,
+                19,
+                23,
+                29,
+                38,
+                28
+            ],
+            "ioBursts": [
+                4,
+                9,
+                -8,
+                4,
+                1,
+                3,
+                -3,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 16,
+            "process_id": 110,
+            "priority": 2,
+            "cpuBursts": [
+                32,
+                29,
+                22,
+                19,
+                33,
+                34,
+                32,
+                35,
+                37,
+                32,
+                27
+            ],
+            "ioBursts": [
+                5,
+                2,
+                9,
+                7,
+                10,
+                -8,
+                7,
+                3,
+                9,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 17,
+            "process_id": 116,
+            "priority": 1,
+            "cpuBursts": [
+                28,
+                33,
+                26,
+                37,
+                25,
+                24,
+                21,
+                27,
+                40,
+                22
+            ],
+            "ioBursts": [
+                -2,
+                11,
+                -5,
+                2,
+                7,
+                -8,
+                11,
+                8,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 18,
+            "process_id": 126,
+            "priority": 2,
+            "cpuBursts": [
+                38,
+                34,
+                13,
+                37,
+                19,
+                20
+            ],
+            "ioBursts": [
+                -6,
+                -5,
+                9,
+                -4,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 19,
+            "process_id": 135,
+            "priority": 1,
+            "cpuBursts": [
+                26,
+                34,
+                31,
+                39,
+                34,
+                18,
+                25,
+                25
+            ],
+            "ioBursts": [
+                2,
+                9,
+                4,
+                10,
+                9,
+                -6,
+                11
+            ]
+        },
+        {
+            "arrivalTime": 20,
+            "process_id": 145,
+            "priority": 4,
+            "cpuBursts": [
+                37,
+                22,
+                29,
+                14,
+                18,
+                15,
+                22,
+                15,
+                30
+            ],
+            "ioBursts": [
+                3,
+                6,
+                -6,
+                -7,
+                11,
+                -1,
+                -3,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 21,
+            "process_id": 149,
+            "priority": 5,
+            "cpuBursts": [
+                33,
+                30,
+                15,
+                40,
+                11,
+                30,
+                28,
+                17,
+                12,
+                36,
+                27
+            ],
+            "ioBursts": [
+                -4,
+                4,
+                -5,
+                5,
+                -1,
+                -1,
+                4,
+                1,
+                5,
+                11
+            ]
+        },
+        {
+            "arrivalTime": 22,
+            "process_id": 156,
+            "priority": 5,
+            "cpuBursts": [
+                27,
+                17,
+                18,
+                33,
+                29,
+                27,
+                14,
+                25,
+                32,
+                32,
+                26
+            ],
+            "ioBursts": [
+                -3,
+                -2,
+                8,
+                11,
+                1,
+                -6,
+                10,
+                6,
+                7,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 23,
+            "process_id": 157,
+            "priority": 5,
+            "cpuBursts": [
+                39,
+                24,
+                34,
+                16,
+                18,
+                11,
+                37,
+                38,
+                33,
+                34,
+                33,
+                12
+            ],
+            "ioBursts": [
+                3,
+                -3,
+                -6,
+                -5,
+                8,
+                4,
+                9,
+                -8,
+                2,
+                -6,
+                4
+            ]
+        },
+        {
+            "arrivalTime": 24,
+            "process_id": 165,
+            "priority": 3,
+            "cpuBursts": [
+                27,
+                13,
+                30,
+                12,
+                22,
+                34,
+                26,
+                39,
+                31,
+                36,
+                35
+            ],
+            "ioBursts": [
+                -1,
+                9,
+                2,
+                -5,
+                -3,
+                -1,
+                -5,
+                -2,
+                10,
+                8
+            ]
+        },
+        {
+            "arrivalTime": 25,
+            "process_id": 170,
+            "priority": 1,
+            "cpuBursts": [
+                32,
+                35,
+                26,
+                28,
+                37,
+                38,
+                23,
+                17,
+                18,
+                16
+            ],
+            "ioBursts": [
+                -8,
+                5,
+                -4,
+                -4,
+                -5,
+                -7,
+                11,
+                9,
+                0
+            ]
+        },
+        {
+            "arrivalTime": 26,
+            "process_id": 178,
+            "priority": 2,
+            "cpuBursts": [
+                31,
+                17,
+                14,
+                33,
+                27,
+                33,
+                28,
+                15,
+                40,
+                32
+            ],
+            "ioBursts": [
+                3,
+                8,
+                -4,
+                -2,
+                4,
+                1,
+                8,
+                2,
+                -5
+            ]
+        },
+        {
+            "arrivalTime": 27,
+            "process_id": 180,
+            "priority": 3,
+            "cpuBursts": [
+                11,
+                35,
+                15,
+                20,
+                22,
+                37,
+                26,
+                29,
+                26,
+                38,
+                14
+            ],
+            "ioBursts": [
+                8,
+                -6,
+                -4,
+                7,
+                11,
+                10,
+                -7,
+                11,
+                -4,
+                10
+            ]
+        },
+        {
+            "arrivalTime": 28,
+            "process_id": 190,
+            "priority": 1,
+            "cpuBursts": [
+                36,
+                15,
+                20,
+                14,
+                34,
+                18,
+                31,
+                18,
+                34
+            ],
+            "ioBursts": [
+                -3,
+                4,
+                -6,
+                -8,
+                0,
+                3,
+                -3,
+                -1
+            ]
+        },
+        {
+            "arrivalTime": 29,
+            "process_id": 199,
+            "priority": 3,
+            "cpuBursts": [
+                13,
+                25,
+                21,
+                19,
+                12,
+                21,
+                20,
+                30
+            ],
+            "ioBursts": [
+                -2,
+                10,
+                -7,
+                11,
+                2,
+                0,
+                -4
+            ]
+        },
+        {
+            "arrivalTime": 30,
+            "process_id": 204,
+            "priority": 2,
+            "cpuBursts": [
+                34,
+                20,
+                21,
+                39,
+                20,
+                28,
+                39,
+                37,
+                14,
+                38,
+                22,
+                15
+            ],
+            "ioBursts": [
+                2,
+                11,
+                3,
+                -2,
+                -5,
+                -3,
+                7,
+                -1,
+                5,
+                -5,
+                9
+            ]
+        },
+        {
+            "arrivalTime": 31,
+            "process_id": 212,
+            "priority": 1,
+            "cpuBursts": [
+                21,
+                34,
+                40,
+                18,
+                38,
+                30,
+                21
+            ],
+            "ioBursts": [
+                1,
+                10,
+                -2,
+                4,
+                4,
+                10
+            ]
+        },
+        {
+            "arrivalTime": 32,
+            "process_id": 213,
+            "priority": 2,
+            "cpuBursts": [
+                34,
+                30,
+                31,
+                29,
+                27,
+                27,
+                40,
+                40,
+                16,
+                29,
+                27,
+                28
+            ],
+            "ioBursts": [
+                -3,
+                4,
+                -2,
+                5,
+                11,
+                11,
+                5,
+                -5,
+                8,
+                -2,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 33,
+            "process_id": 222,
+            "priority": 4,
+            "cpuBursts": [
+                33,
+                33,
+                30,
+                14,
+                16,
+                39,
+                25,
+                19,
+                21,
+                33
+            ],
+            "ioBursts": [
+                9,
+                11,
+                -6,
+                5,
+                -7,
+                10,
+                8,
+                6,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 34,
+            "process_id": 225,
+            "priority": 1,
+            "cpuBursts": [
+                19,
+                24,
+                20,
+                13,
+                33,
+                31,
+                23,
+                11
+            ],
+            "ioBursts": [
+                10,
+                7,
+                4,
+                2,
+                10,
+                10,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 35,
+            "process_id": 229,
+            "priority": 1,
+            "cpuBursts": [
+                22,
+                11,
+                37,
+                20,
+                23,
+                33,
+                35,
+                22
+            ],
+            "ioBursts": [
+                3,
+                8,
+                -7,
+                2,
+                -7,
+                0,
+                -5
+            ]
+        },
+        {
+            "arrivalTime": 36,
+            "process_id": 238,
+            "priority": 5,
+            "cpuBursts": [
+                28,
+                39,
+                18,
+                17,
+                40,
+                11,
+                39,
+                25,
+                36,
+                30,
+                32,
+                23
+            ],
+            "ioBursts": [
+                9,
+                5,
+                11,
+                -4,
+                11,
+                11,
+                6,
+                5,
+                7,
+                -6,
+                9
+            ]
+        },
+        {
+            "arrivalTime": 37,
+            "process_id": 245,
+            "priority": 4,
+            "cpuBursts": [
+                35,
+                34,
+                32,
+                29,
+                16,
+                28,
+                29,
+                29,
+                23
+            ],
+            "ioBursts": [
+                4,
+                2,
+                10,
+                -3,
+                6,
+                7,
+                7,
+                11
+            ]
+        },
+        {
+            "arrivalTime": 38,
+            "process_id": 253,
+            "priority": 1,
+            "cpuBursts": [
+                31,
+                24,
+                19,
+                39,
+                15,
+                15,
+                29
+            ],
+            "ioBursts": [
+                4,
+                -1,
+                -8,
+                -4,
+                1,
+                -7
+            ]
+        },
+        {
+            "arrivalTime": 39,
+            "process_id": 261,
+            "priority": 3,
+            "cpuBursts": [
+                35,
+                30,
+                25,
+                17,
+                35,
+                17,
+                25,
+                28,
+                18
+            ],
+            "ioBursts": [
+                7,
+                -3,
+                10,
+                -7,
+                -7,
+                -7,
+                -5,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 40,
+            "process_id": 267,
+            "priority": 2,
+            "cpuBursts": [
+                34,
+                34,
+                38,
+                20,
+                32,
+                18,
+                28,
+                22,
+                13,
+                11,
+                25
+            ],
+            "ioBursts": [
+                -1,
+                9,
+                10,
+                2,
+                -3,
+                11,
+                7,
+                11,
+                4,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 41,
+            "process_id": 268,
+            "priority": 2,
+            "cpuBursts": [
+                11,
+                28,
+                16,
+                39,
+                39,
+                11,
+                18,
+                28,
+                39
+            ],
+            "ioBursts": [
+                -8,
+                -3,
+                -7,
+                0,
+                11,
+                1,
+                7,
+                -3
+            ]
+        },
+        {
+            "arrivalTime": 42,
+            "process_id": 271,
+            "priority": 4,
+            "cpuBursts": [
+                20,
+                21,
+                31,
+                30,
+                21,
+                37,
+                30,
+                34,
+                25,
+                28,
+                34
+            ],
+            "ioBursts": [
+                6,
+                -3,
+                3,
+                9,
+                2,
+                8,
+                -2,
+                -8,
+                -1,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 43,
+            "process_id": 281,
+            "priority": 5,
+            "cpuBursts": [
+                16,
+                17,
+                12,
+                24,
+                34,
+                21,
+                39,
+                13,
+                21,
+                22,
+                16
+            ],
+            "ioBursts": [
+                -7,
+                -1,
+                -7,
+                9,
+                10,
+                3,
+                3,
+                5,
+                -7,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 44,
+            "process_id": 286,
+            "priority": 5,
+            "cpuBursts": [
+                40,
+                11,
+                30,
+                36,
+                28,
+                27,
+                35,
+                25
+            ],
+            "ioBursts": [
+                -4,
+                8,
+                -8,
+                4,
+                1,
+                -7,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 45,
+            "process_id": 292,
+            "priority": 4,
+            "cpuBursts": [
+                34,
+                38,
+                15,
+                12,
+                40,
+                39,
+                17,
+                30,
+                27,
+                36,
+                18,
+                15
+            ],
+            "ioBursts": [
+                -3,
+                4,
+                -3,
+                -5,
+                -8,
+                6,
+                11,
+                -2,
+                -8,
+                1,
+                -3
+            ]
+        },
+        {
+            "arrivalTime": 46,
+            "process_id": 296,
+            "priority": 1,
+            "cpuBursts": [
+                11,
+                23,
+                33,
+                21,
+                23,
+                30,
+                18,
+                20,
+                30,
+                15
+            ],
+            "ioBursts": [
+                3,
+                -3,
+                2,
+                -2,
+                7,
+                -6,
+                7,
+                -5,
+                10
+            ]
+        },
+        {
+            "arrivalTime": 47,
+            "process_id": 301,
+            "priority": 5,
+            "cpuBursts": [
+                37,
+                20,
+                23,
+                24,
+                31,
+                31,
+                11,
+                13
+            ],
+            "ioBursts": [
+                -8,
+                6,
+                8,
+                -2,
+                -7,
+                5,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 48,
+            "process_id": 309,
+            "priority": 4,
+            "cpuBursts": [
+                13,
+                35,
+                20,
+                24,
+                18,
+                29,
+                21,
+                25,
+                30
+            ],
+            "ioBursts": [
+                7,
+                -6,
+                -8,
+                -3,
+                2,
+                4,
+                -7,
+                -7
+            ]
+        },
+        {
+            "arrivalTime": 49,
+            "process_id": 313,
+            "priority": 2,
+            "cpuBursts": [
+                37,
+                19,
+                32,
+                16,
+                34,
+                14,
+                22,
+                17,
+                35,
+                15
+            ],
+            "ioBursts": [
+                6,
+                -2,
+                -7,
+                -8,
+                -3,
+                -5,
+                9,
+                5,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 50,
+            "process_id": 319,
+            "priority": 1,
+            "cpuBursts": [
+                30,
+                14,
+                22,
+                34,
+                32,
+                33,
+                36,
+                19,
+                39,
+                28
+            ],
+            "ioBursts": [
+                -3,
+                0,
+                -6,
+                5,
+                1,
+                7,
+                5,
+                6,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 51,
+            "process_id": 329,
+            "priority": 1,
+            "cpuBursts": [
+                25,
+                26,
+                26,
+                27,
+                20,
+                22
+            ],
+            "ioBursts": [
+                -5,
+                -4,
+                3,
+                -4,
+                0
+            ]
+        },
+        {
+            "arrivalTime": 52,
+            "process_id": 336,
+            "priority": 3,
+            "cpuBursts": [
+                36,
+                40,
+                18,
+                22,
+                27,
+                22
+            ],
+            "ioBursts": [
+                11,
+                -6,
+                -1,
+                9,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 53,
+            "process_id": 344,
+            "priority": 3,
+            "cpuBursts": [
+                27,
+                24,
+                15,
+                36,
+                28,
+                21,
+                12
+            ],
+            "ioBursts": [
+                10,
+                -3,
+                3,
+                -1,
+                -3,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 54,
+            "process_id": 345,
+            "priority": 4,
+            "cpuBursts": [
+                31,
+                12,
+                35,
+                34,
+                24,
+                19,
+                11,
+                35,
+                35,
+                18,
+                12,
+                11
+            ],
+            "ioBursts": [
+                3,
+                6,
+                -7,
+                5,
+                5,
+                -3,
+                11,
+                9,
+                -1,
+                -1,
+                11
+            ]
+        },
+        {
+            "arrivalTime": 55,
+            "process_id": 349,
+            "priority": 5,
+            "cpuBursts": [
+                12,
+                37,
+                18,
+                25,
+                22,
+                33,
+                32,
+                33,
+                29,
+                22,
+                29
+            ],
+            "ioBursts": [
+                -7,
+                11,
+                3,
+                6,
+                5,
+                9,
+                7,
+                -5,
+                -5,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 56,
+            "process_id": 352,
+            "priority": 3,
+            "cpuBursts": [
+                39,
+                25,
+                17,
+                13,
+                37,
+                30,
+                20,
+                18,
+                21,
+                26,
+                17
+            ],
+            "ioBursts": [
+                11,
+                9,
+                5,
+                -3,
+                3,
+                9,
+                -2,
+                -3,
+                4,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 57,
+            "process_id": 353,
+            "priority": 1,
+            "cpuBursts": [
+                29,
+                29,
+                18,
+                15,
+                39,
+                28,
+                23,
+                15,
+                19,
+                27
+            ],
+            "ioBursts": [
+                4,
+                3,
+                -3,
+                9,
+                4,
+                1,
+                9,
+                -3,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 58,
+            "process_id": 354,
+            "priority": 3,
+            "cpuBursts": [
+                36,
+                15,
+                23,
+                33,
+                35,
+                21,
+                27,
+                22,
+                35
+            ],
+            "ioBursts": [
+                1,
+                -5,
+                -5,
+                8,
+                -4,
+                -2,
+                -5,
+                2
+            ]
+        },
+        {
+            "arrivalTime": 59,
+            "process_id": 355,
+            "priority": 2,
+            "cpuBursts": [
+                26,
+                11,
+                14,
+                20,
+                14,
+                13,
+                31
+            ],
+            "ioBursts": [
+                2,
+                6,
+                -7,
+                10,
+                -4,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 60,
+            "process_id": 361,
+            "priority": 3,
+            "cpuBursts": [
+                26,
+                18,
+                31,
+                40,
+                30,
+                24,
+                40,
+                11,
+                18,
+                38,
+                24,
+                15
+            ],
+            "ioBursts": [
+                5,
+                -3,
+                -8,
+                8,
+                -2,
+                -1,
+                -6,
+                7,
+                1,
+                7,
+                7
+            ]
+        },
+        {
+            "arrivalTime": 61,
+            "process_id": 366,
+            "priority": 4,
+            "cpuBursts": [
+                15,
+                33,
+                24,
+                14,
+                16,
+                38,
+                31,
+                33,
+                37,
+                22
+            ],
+            "ioBursts": [
+                -6,
+                5,
+                2,
+                -4,
+                5,
+                -6,
+                11,
+                -1,
+                4
+            ]
+        },
+        {
+            "arrivalTime": 62,
+            "process_id": 368,
+            "priority": 2,
+            "cpuBursts": [
+                24,
+                28,
+                40,
+                12,
+                39,
+                21,
+                16,
+                23,
+                18,
+                19,
+                27
+            ],
+            "ioBursts": [
+                11,
+                -2,
+                10,
+                -8,
+                6,
+                -7,
+                11,
+                3,
+                7,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 63,
+            "process_id": 374,
+            "priority": 5,
+            "cpuBursts": [
+                27,
+                23,
+                21,
+                23,
+                33,
+                13,
+                36,
+                35,
+                26,
+                11,
+                35
+            ],
+            "ioBursts": [
+                -5,
+                10,
+                3,
+                -3,
+                0,
+                7,
+                -8,
+                7,
+                0,
+                -3
+            ]
+        },
+        {
+            "arrivalTime": 64,
+            "process_id": 383,
+            "priority": 2,
+            "cpuBursts": [
+                40,
+                12,
+                17,
+                13,
+                35,
+                33,
+                20
+            ],
+            "ioBursts": [
+                -6,
+                2,
+                7,
+                8,
+                -7,
+                2
+            ]
+        },
+        {
+            "arrivalTime": 65,
+            "process_id": 393,
+            "priority": 4,
+            "cpuBursts": [
+                32,
+                31,
+                26,
+                40,
+                16,
+                15,
+                27,
+                14,
+                37,
+                36,
+                15,
+                31
+            ],
+            "ioBursts": [
+                -2,
+                1,
+                -1,
+                9,
+                -2,
+                -4,
+                4,
+                -3,
+                -2,
+                8,
+                4
+            ]
+        },
+        {
+            "arrivalTime": 66,
+            "process_id": 394,
+            "priority": 2,
+            "cpuBursts": [
+                17,
+                15,
+                39,
+                37,
+                33,
+                20,
+                24,
+                35,
+                13
+            ],
+            "ioBursts": [
+                0,
+                7,
+                -2,
+                6,
+                9,
+                -2,
+                -5,
+                -6
+            ]
+        },
+        {
+            "arrivalTime": 67,
+            "process_id": 396,
+            "priority": 1,
+            "cpuBursts": [
+                35,
+                34,
+                28,
+                14,
+                38,
+                35,
+                37,
+                18,
+                26
+            ],
+            "ioBursts": [
+                -8,
+                9,
+                5,
+                6,
+                11,
+                0,
+                -4,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 68,
+            "process_id": 404,
+            "priority": 2,
+            "cpuBursts": [
+                23,
+                27,
+                19,
+                24,
+                17,
+                28,
+                40
+            ],
+            "ioBursts": [
+                8,
+                -1,
+                -4,
+                5,
+                4,
+                9
+            ]
+        },
+        {
+            "arrivalTime": 69,
+            "process_id": 411,
+            "priority": 5,
+            "cpuBursts": [
+                25,
+                36,
+                36,
+                29,
+                25,
+                17,
+                31,
+                15,
+                25,
+                31,
+                20
+            ],
+            "ioBursts": [
+                -5,
+                -4,
+                -4,
+                -1,
+                11,
+                10,
+                6,
+                5,
+                -4,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 70,
+            "process_id": 419,
+            "priority": 1,
+            "cpuBursts": [
+                32,
+                11,
+                16,
+                34,
+                25,
+                32,
+                23
+            ],
+            "ioBursts": [
+                5,
+                -3,
+                2,
+                6,
+                0,
+                -2
+            ]
+        },
+        {
+            "arrivalTime": 71,
+            "process_id": 425,
+            "priority": 1,
+            "cpuBursts": [
+                35,
+                23,
+                35,
+                35,
+                16,
+                33,
+                24
+            ],
+            "ioBursts": [
+                -3,
+                -3,
+                1,
+                -5,
+                -8,
+                2
+            ]
+        },
+        {
+            "arrivalTime": 72,
+            "process_id": 428,
+            "priority": 3,
+            "cpuBursts": [
+                18,
+                12,
+                31,
+                21,
+                37,
+                35,
+                35,
+                18
+            ],
+            "ioBursts": [
+                11,
+                6,
+                7,
+                -5,
+                -3,
+                4,
+                7
+            ]
+        },
+        {
+            "arrivalTime": 73,
+            "process_id": 438,
+            "priority": 5,
+            "cpuBursts": [
+                30,
+                20,
+                13,
+                35,
+                27,
+                17
+            ],
+            "ioBursts": [
+                -6,
+                7,
+                5,
+                9,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 74,
+            "process_id": 448,
+            "priority": 1,
+            "cpuBursts": [
+                37,
+                32,
+                20,
+                24,
+                31,
+                36,
+                25,
+                40,
+                12,
+                37,
+                36,
+                13
+            ],
+            "ioBursts": [
+                4,
+                4,
+                4,
+                9,
+                -7,
+                4,
+                11,
+                -5,
+                6,
+                1,
+                -4
+            ]
+        },
+        {
+            "arrivalTime": 75,
+            "process_id": 452,
+            "priority": 3,
+            "cpuBursts": [
+                32,
+                16,
+                32,
+                18,
+                30,
+                26
+            ],
+            "ioBursts": [
+                6,
+                -6,
+                5,
+                6,
+                2
+            ]
+        },
+        {
+            "arrivalTime": 76,
+            "process_id": 457,
+            "priority": 5,
+            "cpuBursts": [
+                35,
+                22,
+                37,
+                28,
+                19,
+                24
+            ],
+            "ioBursts": [
+                5,
+                -4,
+                1,
+                11,
+                9
+            ]
+        },
+        {
+            "arrivalTime": 77,
+            "process_id": 463,
+            "priority": 2,
+            "cpuBursts": [
+                26,
+                38,
+                11,
+                15,
+                35,
+                18,
+                24,
+                35,
+                18,
+                21,
+                18
+            ],
+            "ioBursts": [
+                -7,
+                -8,
+                6,
+                -2,
+                6,
+                -7,
+                10,
+                3,
+                -6,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 78,
+            "process_id": 466,
+            "priority": 4,
+            "cpuBursts": [
+                37,
+                14,
+                23,
+                37,
+                36,
+                32,
+                32,
+                34
+            ],
+            "ioBursts": [
+                11,
+                3,
+                2,
+                3,
+                -5,
+                0,
+                10
+            ]
+        },
+        {
+            "arrivalTime": 79,
+            "process_id": 476,
+            "priority": 3,
+            "cpuBursts": [
+                21,
+                13,
+                26,
+                19,
+                17,
+                37,
+                21,
+                36,
+                33,
+                25,
+                22,
+                19
+            ],
+            "ioBursts": [
+                0,
+                10,
+                10,
+                0,
+                1,
+                5,
+                0,
+                5,
+                11,
+                4,
+                -5
+            ]
+        },
+        {
+            "arrivalTime": 80,
+            "process_id": 477,
+            "priority": 5,
+            "cpuBursts": [
+                16,
+                16,
+                17,
+                32,
+                37,
+                20,
+                31,
+                27,
+                21
+            ],
+            "ioBursts": [
+                3,
+                10,
+                5,
+                2,
+                11,
+                -3,
+                -1,
+                7
+            ]
+        },
+        {
+            "arrivalTime": 81,
+            "process_id": 484,
+            "priority": 2,
+            "cpuBursts": [
+                34,
+                28,
+                37,
+                14,
+                14,
+                36
+            ],
+            "ioBursts": [
+                -8,
+                -3,
+                1,
+                9,
+                -4
+            ]
+        },
+        {
+            "arrivalTime": 82,
+            "process_id": 492,
+            "priority": 4,
+            "cpuBursts": [
+                31,
+                33,
+                36,
+                30,
+                17,
+                39
+            ],
+            "ioBursts": [
+                -1,
+                5,
+                -1,
+                0,
+                -5
+            ]
+        },
+        {
+            "arrivalTime": 83,
+            "process_id": 499,
+            "priority": 3,
+            "cpuBursts": [
+                13,
+                13,
+                40,
+                12,
+                16,
+                39,
+                30,
+                35,
+                29,
+                27
+            ],
+            "ioBursts": [
+                -6,
+                -7,
+                -7,
+                -7,
+                -4,
+                -8,
+                -1,
+                3,
+                11
+            ]
+        }
+    ]
+}

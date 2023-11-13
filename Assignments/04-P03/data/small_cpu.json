@@ -1,0 +1,107 @@
+{
+    "kwargs": {
+        "ofile": "small_cpu.dat",
+        "nj": 5,
+        "minCpuBT": 1,
+        "maxCpuBT": 2,
+        "minIOBT": 1,
+        "maxIOBT": 2,
+        "intBurstType": "cpu",
+        "minat": 1,
+        "maxat": 2
+    },
+    "jobs": [
+        {
+            "arrivalTime": 0,
+            "process_id": 1,
+            "priority": 3,
+            "cpuBursts": [
+                21,
+                11,
+                21,
+                13,
+                13,
+                21,
+                18,
+                21,
+                19,
+                13,
+                11,
+                20,
+                19
+            ],
+            "ioBursts": [
+                -8,
+                -7,
+                -7,
+                -8,
+                -7,
+                -8,
+                -8,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7
+            ]
+        },
+        {
+            "arrivalTime": 1,
+            "process_id": 3,
+            "priority": 5,
+            "cpuBursts": [
+                19,
+                11,
+                14,
+                20,
+                13,
+                18,
+                11,
+                15
+            ],
+            "ioBursts": [
+                -7,
+                -8,
+                -7,
+                -7,
+                -7,
+                -7,
+                -8
+            ]
+        },
+        {
+            "arrivalTime": 2,
+            "process_id": 4,
+            "priority": 1,
+            "cpuBursts": [
+                17,
+                13,
+                11,
+                20,
+                15,
+                19,
+                16,
+                17,
+                12,
+                13,
+                18,
+                21,
+                15
+            ],
+            "ioBursts": [
+                -7,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7,
+                -8,
+                -7,
+                -7,
+                -7,
+                -8,
+                -7
+            ]
+        }
+    ]
+}

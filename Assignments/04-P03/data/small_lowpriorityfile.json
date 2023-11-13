@@ -1,0 +1,257 @@
+{
+    "kwargs": {
+        "ofile": "small_lowpriorityfile.dat",
+        "nj": 20,
+        "minCpuBT": 1,
+        "maxCpuBT": 6,
+        "minIOBT": 1,
+        "maxIOBT": 6,
+        "minat": 1,
+        "maxat": 3,
+        "minp": 1,
+        "maxp": 3,
+        "prioWeights": "low"
+    },
+    "jobs": [
+        {
+            "arrivalTime": 0,
+            "process_id": 1,
+            "priority": 2,
+            "cpuBursts": [
+                2,
+                3,
+                3,
+                3,
+                6,
+                4,
+                5,
+                5
+            ],
+            "ioBursts": [
+                6,
+                5,
+                5,
+                4,
+                1,
+                2,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 1,
+            "process_id": 4,
+            "priority": 2,
+            "cpuBursts": [
+                6,
+                5,
+                6,
+                5,
+                5,
+                3,
+                2,
+                4
+            ],
+            "ioBursts": [
+                2,
+                3,
+                2,
+                1,
+                1,
+                4,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 2,
+            "process_id": 5,
+            "priority": 1,
+            "cpuBursts": [
+                5,
+                5,
+                3,
+                4,
+                3,
+                1,
+                4,
+                5,
+                2,
+                2,
+                4,
+                3,
+                4
+            ],
+            "ioBursts": [
+                3,
+                4,
+                2,
+                1,
+                2,
+                5,
+                3,
+                6,
+                1,
+                3,
+                2,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 3,
+            "process_id": 6,
+            "priority": 4,
+            "cpuBursts": [
+                4,
+                5,
+                6,
+                2,
+                5,
+                1,
+                5,
+                4,
+                2,
+                3,
+                1,
+                1
+            ],
+            "ioBursts": [
+                5,
+                3,
+                3,
+                6,
+                6,
+                6,
+                1,
+                5,
+                5,
+                5,
+                1
+            ]
+        },
+        {
+            "arrivalTime": 4,
+            "process_id": 9,
+            "priority": 4,
+            "cpuBursts": [
+                4,
+                2,
+                1,
+                2,
+                5,
+                2,
+                5,
+                5
+            ],
+            "ioBursts": [
+                2,
+                2,
+                4,
+                4,
+                3,
+                6,
+                4
+            ]
+        },
+        {
+            "arrivalTime": 5,
+            "process_id": 10,
+            "priority": 4,
+            "cpuBursts": [
+                5,
+                1,
+                2,
+                5,
+                5,
+                6
+            ],
+            "ioBursts": [
+                4,
+                3,
+                3,
+                3,
+                5
+            ]
+        },
+        {
+            "arrivalTime": 6,
+            "process_id": 13,
+            "priority": 1,
+            "cpuBursts": [
+                5,
+                3,
+                4,
+                3,
+                2,
+                2,
+                4,
+                6,
+                3
+            ],
+            "ioBursts": [
+                6,
+                6,
+                4,
+                4,
+                6,
+                4,
+                4,
+                6
+            ]
+        },
+        {
+            "arrivalTime": 7,
+            "process_id": 16,
+            "priority": 2,
+            "cpuBursts": [
+                1,
+                1,
+                1,
+                3,
+                6,
+                2,
+                5,
+                4
+            ],
+            "ioBursts": [
+                6,
+                2,
+                1,
+                1,
+                1,
+                5,
+                3
+            ]
+        },
+        {
+            "arrivalTime": 8,
+            "process_id": 19,
+            "priority": 1,
+            "cpuBursts": [
+                5,
+                4,
+                2,
+                4,
+                3,
+                1,
+                3,
+                6,
+                1,
+                2,
+                5,
+                1
+            ],
+            "ioBursts": [
+                6,
+                2,
+                1,
+                5,
+                2,
+                6,
+                5,
+                4,
+                5,
+                4,
+                5
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "kwargs": {
+        "ofile": "small_io.dat",
+        "nj": 5,
+        "minCpuBT": 1,
+        "maxCpuBT": 2,
+        "minIOBT": 1,
+        "maxIOBT": 2,
+        "intBurstType": "io",
+        "minat": 1,
+        "maxat": 2
+    },
+    "jobs": [
+        {
+            "arrivalTime": 0,
+            "process_id": 0,
+            "priority": 4,
+            "cpuBursts": [
+                6,
+                6,
+                6,
+                6,
+                5,
+                6,
+                5
+            ],
+            "ioBursts": [
+                22,
+                22,
+                13,
+                11,
+                18,
+                14
+            ]
+        },
+        {
+            "arrivalTime": 1,
+            "process_id": 1,
+            "priority": 4,
+            "cpuBursts": [
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                5
+            ],
+            "ioBursts": [
+                17,
+                14,
+                14,
+                16,
+                14,
+                14,
+                20
+            ]
+        },
+        {
+            "arrivalTime": 2,
+            "process_id": 2,
+            "priority": 2,
+            "cpuBursts": [
+                5,
+                5,
+                6,
+                5,
+                6,
+                6,
+                6,
+                5,
+                6,
+                5
+            ],
+            "ioBursts": [
+                15,
+                16,
+                18,
+                18,
+                11,
+                22,
+                20,
+                19,
+                16
+            ]
+        },
+        {
+            "arrivalTime": 3,
+            "process_id": 4,
+            "priority": 4,
+            "cpuBursts": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                5,
+                5
+            ],
+            "ioBursts": [
+                14,
+                12,
+                11,
+                20,
+                12,
+                15,
+                13
+            ]
+        }
+    ]
+}

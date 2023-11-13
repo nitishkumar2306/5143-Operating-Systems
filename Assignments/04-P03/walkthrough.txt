@@ -1,0 +1,15 @@
+python3 sim.py type=FCFS cpus=5 ios=5  input=data/small_file.dat  speed=1
+python3 sim.py type=FCFS cpus=1 ios=1  input=data/small_file.dat  speed=0.5
+python3 sim.py type=FCFS cpus=2 ios=2  input=data/small_cpu.dat  speed=0.02
+
+python3 sim.py type=RR  cpus=2 ios=2  input=data/small_io.dat  speed=0.05 timeslice=10
+python3 sim.py type=RR  cpus=2 ios=5  input=data/small_io.dat  speed=0.02 timeslice=10
+
+python3 sim.py type=PB  cpus=3 ios=3  input=data/small_file.dat  speed=0.5
+python3 sim.py type=PB  cpus=3 ios=3  input=data/small_highpriorityfile.dat  speed=0.5
+
+
+
+
+python3 sim.py type=RR cpus=10 ios=10  input=data/mid_file.dat timeslice=15
+python3 sim.py type=FCFS cpus=20 ios=15  input=data/big_file.dat 
